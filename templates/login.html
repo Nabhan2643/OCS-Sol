@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column;">
+    <form id="login-form" action = "/" method="POST">
+        <label for="userid">Username</label><br>
+        <input type="text" id="userid" name="userid" placeholder="Enter Username" required><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        <br>
+        <input type="submit" value="Sign In" class="button">
+    </form>
+    </div>
+</body>
+</html>
