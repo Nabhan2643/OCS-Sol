@@ -27,7 +27,7 @@ Dependencies:
 
 Setup:
 
--- Clone the repository containing the Flask application code.
+-- Clone the repository containing the Flask application code, html and css code.
 
 -- Install dependencies
 
