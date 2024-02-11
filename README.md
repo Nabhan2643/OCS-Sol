@@ -47,4 +47,6 @@ API Endpoints:
 
 -- POST /: Authenticates the user based on the provided username and password.
 
+Test URL: https://ocs-sol.vercel.app
+
 
